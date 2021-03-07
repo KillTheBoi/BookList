@@ -7,7 +7,7 @@
 
 #include "Book.hpp"
 
-/***      Implementation private types, objects, and functions      ***/
+/***Implementation private types, objects, and functions***/
 namespace
 {
     constexpr auto EPSILON  =   1.0E-4;
@@ -42,7 +42,7 @@ std::string Book::author  () const
     return _author;
 }
 
-double Book:price() const       //I missed this on Project 1
+double Book:price() const
 {
     return _price;
 }
